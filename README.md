@@ -1,9 +1,8 @@
-# 02 Advanced CSS: Portfolio
+# Zachary Eggert: Full Stack Developer Portfolio
 
 ## Description
-
-For this assignment I have created a portfolio page that will showcase my project applications to future employers. In it I have an about me section to talk a little bit about who I am and how my journey as a developer began, a projects section with pictures of mock websites I have worked on and links to those deployed pages, and a contact section with my email, phone number, and online profiles. I intend on keeping this page update with new projects as they are deployed throughout the duration of the bootcamp. 
+This is my personal portfolio page I built to showcase projects I have worked on in my journey to become a full stack web developer. In it is my brand statement, projects both solo and collaborative, and contact information to get in touch with me as well as links to my online presence.
 
 Below is a screen of my portfolio page.
 
-![portfolio](./resources/portfolio-readme-img.png)
+![portfolio](./resources/images/portfolio-readme-img.png)
