@@ -55,7 +55,7 @@ nav ul li {
     flex: 1 2 auto;
 }
 
-nav ul li a {
+nav ul li button {
     list-style-type: none;
     font-size: 25px;
     color: whitesmoke;
@@ -65,8 +65,14 @@ nav ul li a {
 }
 
 
-nav ul li a:hover {
+nav ul li button:hover {
     color: #36454f; 
+}
+
+.nav-btn {
+    background-color: inherit;
+    border: none;
+    outline: none;
 }
 
 .hero {
@@ -80,7 +86,7 @@ nav ul li a:hover {
 main {
     position: relative;
     z-index: 1;
-    top: 400px;
+    top: 200px;
 }
 
 section {
@@ -198,7 +204,7 @@ section h2 {
         list-style: none;
     }
     
-    nav ul li a {
+    nav ul li button {
         padding-right: 40px;
         list-style-type: none;
         font-size: 16px;
