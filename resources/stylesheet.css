@@ -105,10 +105,6 @@ section h2 {
     width: 100%;
 }
 
-.about-me {
-    height: fit-content;
-}
-
 .hide {
     display: none;
 }
@@ -117,9 +113,6 @@ section h2 {
     display: block;
 }
 
-.contact-me {
-    height: fit-content;
-}
 #contact-me ul li {
     display: block;
     padding-right: 50px;
@@ -191,15 +184,19 @@ section h2 {
     header {
         position: relative;
         width: 100%;
+        padding: 0;
     }
 
     header h1 {
-        font-size: 20px
+        font-size: 20px;
+        padding: 20px;
+        padding-bottom: 0;
     }
 
     header h3 {
         width: 100%;
         font-size: 16px;
+        padding-left: 20px;
     }
 
     aside {
@@ -212,12 +209,15 @@ section h2 {
 
     main {
         position: relative;
-        top: 20px;
+        height: fit-content;
     }
 
     section {
-        width: 85%;
-        padding-left: 60px;
+        border: 2px solid black;
+        width: 100%;
+        margin-top: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .mobile {
@@ -226,7 +226,7 @@ section h2 {
 
 
     nav {
-        padding: 10px;
+        padding: 5px;
     }
 
 
@@ -236,9 +236,9 @@ section h2 {
     }
     
     nav ul li button {
-        padding-right: 10px;
+        padding: 10px;
         list-style-type: none;
-        font-size: 16px;
+        font-size: 14px;
         color: whitesmoke;
         text-decoration: none;
         background-color: inherit;
@@ -251,23 +251,30 @@ section h2 {
     }
 
     .project-container {
-        width: 40%;
-        padding-right: 50px;
-        
+        padding-bottom: 0px;
+        margin-bottom: 10px;
+        height: 275px;
     }
 
+    .project-container img {
+        border-radius: 10px;
+        width: 280px;
+        height: 50%;
+        padding-left: auto;
+        padding-right: auto;
+     }
+
     .mobile-img {
-        width: 30%;
+        width: 50%;
         display: block;
-        align-items: center;
-        border-radius: 50%;
+        border-radius: 15px;
         margin-left: auto;
         margin-right: auto;
     }
 
-    .contact ul li {
+    #contact-me ul li {
         padding-bottom: 20px;
-        font-size: 14px;
+        font-size: 16px;
         list-style-type: none;
     }
 

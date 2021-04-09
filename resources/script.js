@@ -33,13 +33,16 @@ $(document). ready(function() {
         let sections = $('section').toArray();
         $.each(sections, function() {
             let sectionId = $(this).attr('id');
-            if (navMobile == sectionId ) {
+            if (navMobile == 'home-mobile' ) {
+                $('.mobile-img').show("blind", 800);
+            } else if (navMobile == sectionId ) {
                 $(this).show("blind", 800);
             }
         }) 
     }
     
     $('.nav-btn-mobile').click(function() {
+        $('.mobile-img').hide("fold", 500);
         let navMobile = $(this).attr('name');
         let sections = $('section').toArray();
         $.each(sections, function() {
