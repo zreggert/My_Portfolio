@@ -65,7 +65,11 @@ li a {
     text-decoration: none;
 }
 
-.res-link:active {
+nav ul li .res-link:hover {
+    color: #36454f;
+}
+
+.res-link:visited {
     text-decoration: none;
     color: whitesmoke;
 }
@@ -245,6 +249,15 @@ section h2 {
         border: none;
     }
 
+    nav ul li .nav-btn-mobile:hover {
+        color: #36454f; 
+    }
+
+    nav ul li .nav-btn-mobile:visited {
+        text-decoration: none;
+        color: whitesmoke;
+    }
+
     .nav-btn-mobile {
         border: none;
         outline: none;
@@ -265,7 +278,8 @@ section h2 {
      }
 
     .mobile-img {
-        width: 50%;
+        margin-top: 20px;
+        width: 60%;
         display: block;
         border-radius: 15px;
         margin-left: auto;
