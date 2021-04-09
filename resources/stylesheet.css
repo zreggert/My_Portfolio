@@ -36,37 +36,43 @@ aside {
     position: fixed;
     right: 0;
     height: 100vw;
-    display: flex;
-    flex-wrap: wrap;
-    flex: 1 2 auto;
-    justify-content: flex-end; 
+}
+
+.profile-pic {
+    border-radius: 10px;
+    width: 100%;
+    height: 30%;
 }
 
 nav {
-    padding-top: 100px;
-    display: flex;
-    flex: 1 2 auto;
+    padding-top: 50px;
 }
 
 nav ul li {
     list-style: none;
-    padding-bottom: 80px;
-    display: flex;
-    flex: 1 2 auto;
+    padding-bottom: 30px;
 }
 
 nav ul li button {
     list-style-type: none;
-    font-size: 25px;
+    font-size: 20px;
     color: whitesmoke;
     text-decoration: none;
-    display: flex;
-    flex: 1 2 auto;
 }
 
 
 nav ul li button:hover {
     color: #36454f; 
+}
+
+li a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.res-link:active {
+    text-decoration: none;
+    color: whitesmoke;
 }
 
 .nav-btn {
@@ -104,6 +110,10 @@ section h2 {
     width: 100%;
 }
 
+.about-me {
+    height: fit-content;
+}
+
 .hide {
     display: none;
 }
@@ -112,6 +122,9 @@ section h2 {
     display: block;
 }
 
+.contact-me {
+    height: fit-content;
+}
 #contact-me ul li {
     display: block;
     padding-right: 50px;
@@ -128,28 +141,45 @@ section h2 {
     color: #36454f;
 }
 
-.project-container {
-    width: 30%;
-    display: inline-flex;
-    flex-direction: column;
-    padding-right: 75px;
-    align-content: center;
+.projects {
+    height:fit-content;
+    display: block;
 }
 
-.project-container h4 {
-    text-align: center;
+/* .key-projects {
+    border: 2px solid black;
+} */
+
+/* working on project containers to display more info */
+.project-container {
+    width: 100%;
+    position: relative;
+    /* padding-right: 75px; */
+    align-content: center;
+    height: 300px;
+    margin-bottom: 75px;
+    display: flex;
+    flex-direction: column;
 }
 
 .project-container img {
    border-radius: 10px;
-   width: 100%;
-   height: 100%;
-
+   width: 500px;
+   height: 80%;
+   justify-content: flex-end;
 }
 
-.projects img:hover {
+.project-container a {
+    color: white;
+    padding-right: 20px;
+}
+
+.project-container a:hover {
+    color: #36454f;
+}
+/* .projects img:hover {
     transform: scale(1.5);
-}
+} */
 
 .mobile {
     display: none;

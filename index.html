@@ -5,9 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zachary Eggert</title>
-    <link rel="stylesheet" href="./resources/stylesheet.css">
+    <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+    crossorigin="anonymous"
+    />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Changa&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./resources/stylesheet.css">
 </head>
 <body>
     <figure class="hero"></figure>
@@ -17,6 +23,9 @@
         <div class="mobile">
             <nav>
                 <ul>
+                    <li>
+                        <button class="nav-btn" type="button" name="home">Home</button>
+                    </li>
                     <li>
                         <button class="nav-btn" type="button" name="about-me">About Me</button>
                     </li>
@@ -31,7 +40,9 @@
         </div>
     </header>
     <aside>
-        <figure></figure>
+        <figure>
+            <img class="profile-pic" src="./resources/images/zack_full_stack_dev.jpg"/>
+        </figure>
         <nav>
             <ul>
                 <li>
@@ -45,6 +56,9 @@
                 </li>
                 <li>
                     <button class="nav-btn" type="button" name="contact-me">Contact Me</button>
+                </li>
+                <li>
+                    <button class="nav-btn" type="button" name="resume"><a class="res-link" href="https://docs.google.com/document/d/13sMGOf81npsCH-_1opSTnlQmZ6OLYWNP7iRpQPxH5Ys/edit?usp=sharing">My Resume</a></button>
                 </li>
             </ul>
         </nav>
@@ -64,30 +78,38 @@
         </section>
         <section class="projects hide" id="projects">
             <h2>Projects</h2>
-            <div>
+            <div class="key-projects">
                 <div class="project-container">
-                    <a href="https://zreggert.github.io/get-movie-information/">            
-                        <img src="resources/images/getmovieinfo.png" alt="image from the getMovieInfo website" />
-                    </a>
-                    <h4>getMovieInfo(){}</h4>
+                    <p>getMovieInfo(){}</p>
+                    <div class="project-links">
+                        <a href="https://zreggert.github.io/get-movie-information/"><i class="fas fa-globe"></i></a>
+                        <a href="https://github.com/zreggert/get-movie-information"><i class="fab fa-github-square"></i></a>
+                    </div>
+                    <img src="resources/images/getmovieinfo.png" alt="image from the getMovieInfo website" />
                 </div>
                 <div class="project-container">
-                    <a href="https://zreggert.github.io/weather_forecast/">            
-                        <img src="resources/images/weather_dash.png" alt="image of the Weather Dashboard website" />
-                    </a>
-                    <h4>Weather Dashboard</h4>
+                    <p>Weather Dashboard</p>
+                    <div class="project-links">
+                        <a href="https://zreggert.github.io/weather_forecast/"><i class="fas fa-globe"></i></a>
+                        <a href="https://github.com/zreggert/weather_forecast"><i class="fab fa-github-square"></i></a>
+                    </div>
+                    <img src="resources/images/weather_dash.png" alt="image of the Weather Dashboard website" />
                 </div>
                 <div class="project-container">
-                    <a href="https://zreggert.github.io/JavaScript_Quiz/">            
-                        <img src="resources/images/quiz_start.png" alt="image of JavaScript Quiz landing page" />
-                    </a>
-                    <h4>JavaScript Quiz</h4>
+                    <p>JavaScript Quiz</p>
+                    <div class="project-links">
+                        <a href="https://zreggert.github.io/JavaScript_Quiz/"><i class="fas fa-globe"></i></a>
+                        <a href="https://github.com/zreggert/JavaScript_Quiz"><i class="fab fa-github-square"></i></a>
+                    </div>
+                    <img src="resources/images/quiz_start.png" alt="image of JavaScript Quiz landing page" />  
                 </div>
                 <div class="project-container">
-                    <a href="https://zreggert.github.io/zack_passgen_repo/">            
-                        <img src="resources/images/passgen_webpage.png" alt="image of password generator page" />
-                    </a>
-                    <h4>Random Password Generator</h4>
+                    <p>Password Generator</p>
+                    <div class="project-links">
+                        <a href="https://zreggert.github.io/zack_passgen_repo/"><i class="fas fa-globe"></i></a>
+                        <a href="https://github.com/zreggert/zack_passgen_repo"><i class="fab fa-github-square"></i></a>
+                    </div>
+                    <img src="resources/images/passgen_webpage.png" alt="image of password generator page" />
                 </div>
             </div>
         </section>
