@@ -6,4 +6,4 @@ This is my personal portfolio page I built to showcase projects I have worked on
 
 ![portfolio](./resources/images/portfolio-readme-img.png)
 
-Link to my deployed page: https://zreggert.github.io/My_Portfolio/ 
+Link to my deployed page: https://zreggert.github.io/portfolio/ 
